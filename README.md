@@ -1,2 +1,2 @@
-To run the file, code type <br>
+To run the code, type <br>
 ```python driver.py```
