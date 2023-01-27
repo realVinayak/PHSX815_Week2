@@ -13,4 +13,5 @@ if __name__ == "__main__":
     plt.xlabel("Probability of 0, 1, 2 is 0.3, 0.5 and 0.2 respectively")
     plt.bar(keys, values, width=0.1)
     plt.savefig('categorical_data.png')
+    plt.show()
     print(data)
