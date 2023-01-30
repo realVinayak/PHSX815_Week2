@@ -6,7 +6,7 @@ import numpy as np
 
 # import our Random class from python/Random.py file
 sys.path.append(".")
-from python.Random import Random
+from Random import Random
 
 # main function for our coin toss Python code
 if __name__ == "__main__":
@@ -23,10 +23,10 @@ if __name__ == "__main__":
     rate = 1.
 
     # default number of time measurements (time to next missing cookie) - per experiment
-    Nmeas = 1
+    Nmeas = 1000
 
     # default number of experiments
-    Nexp = 1
+    Nexp = 500
 
     # output file defaults
     doOutputFile = False
